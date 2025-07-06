@@ -1,4 +1,3 @@
-#pragma once
 #ifndef SPLASHSTATE_H
 #define SPLASHSTATE_H
 

@@ -4,7 +4,9 @@
 GameState::GameState(GameDataRef data) : m_data(data) {
 
 }
-GameState::~GameState() {}
+GameState::~GameState() {
+    delete m_player;
+}
 void GameState::init() {
     m_data->assets.loadTexture("GameState Background", GAMESTATE_BACKGROUND_PATH);
 

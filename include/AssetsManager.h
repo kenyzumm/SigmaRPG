@@ -1,4 +1,3 @@
-#pragma once
 #ifndef ASSETSMANAGER_H
 #define ASSETSMANAGER_H
 
