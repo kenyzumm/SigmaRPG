@@ -1,6 +1,6 @@
 #include "Game.h"
 #include "SplashState.h"
-
+#include <iostream>
 Game::Game(int width, int height, std::string title) {
     this->m_data->window = new sf::RenderWindow(sf::VideoMode(sf::Vector2u(width, height)), title,
         sf::Style::Titlebar | sf::Style::Close);

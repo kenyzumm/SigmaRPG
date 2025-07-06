@@ -17,5 +17,9 @@ void AssetsManager::loadFont(std::string name, std::string filename) {
 
 
 
-sf::Texture &AssetsManager::getTexture(std::string name) {}
-sf::Font &AssetsManager::getFont(std::string name) {}
+sf::Texture &AssetsManager::getTexture(std::string name) {
+    return this->m_textures[name];
+}
+sf::Font &AssetsManager::getFont(std::string name) {
+    return this->m_fonts[name];
+}

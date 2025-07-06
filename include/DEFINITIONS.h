@@ -3,7 +3,7 @@
 
 #define LOG_FILEPATH "../log.txt"
 
-#define SPLASHSTATE_BACKGROUND_PATH "XYZ"
+#define SPLASHSTATE_BACKGROUND_PATH "../../resources/background_splash.png"
 #define SPLASHSTATE_SHOWTIME 3.0f
 
 #define MAINMENU_BACKGROUND_PATH "XYZ"

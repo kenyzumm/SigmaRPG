@@ -26,10 +26,10 @@ void StateMachine::processStateChanges() {
             } else {
                 this->m_states.top()->pause();
             }
-            this->m_states.push(std::move(this->m_newState));
-            this->m_states.top()->init();
-            this->m_isAdding = false;
         }
+        this->m_states.push(std::move(this->m_newState));
+        this->m_states.top()->init();
+        this->m_isAdding = false;
     }
 }
 
