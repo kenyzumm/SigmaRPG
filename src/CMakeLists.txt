@@ -8,6 +8,12 @@ set(SOURCES
         SplashState.cpp
         MainMenuState.cpp
         GameState.cpp
+        Player.cpp
+        Movement.cpp
+        Animation.cpp
+        ../include/Player.h
+        ../include/Movement.h
+        ../include/Animation.h
 )
 
 add_executable(SigmaRPG ${SOURCES})

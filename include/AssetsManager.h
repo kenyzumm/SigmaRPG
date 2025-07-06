@@ -4,10 +4,12 @@
 
 #include <map>
 #include <SFML/Graphics.hpp>
+#include "Logger.h"
 
 class AssetsManager {
     std::map<std::string, sf::Texture> m_textures;
     std::map<std::string, sf::Font> m_fonts;
+    Logger m_log;
 public:
     AssetsManager();
     ~AssetsManager();

@@ -14,7 +14,7 @@ class StateMachine {
     bool m_isRemoving;
     bool m_isAdding;
     bool m_isReplacing;
-    Logger m_logger;
+    Logger m_log;
 public:
     StateMachine();
     ~StateMachine() {}
