@@ -12,12 +12,13 @@ class AssetsManager {
 public:
     AssetsManager();
     ~AssetsManager();
-
+    // Loading resources
     void loadTexture(std::string name, std::string filename);
-    sf::Texture &getTexture(std::string name);
-
     void loadFont(std::string name, std::string filename);
+
+    // Getting resources
     sf::Font &getFont(std::string name);
+    sf::Texture &getTexture(std::string name);
 };
 
 #endif //ASSETSMANAGER_H

@@ -14,6 +14,8 @@ class MainMenuState : public State {
 public:
     MainMenuState(GameDataRef data);
     ~MainMenuState();
+
+    // Control
     void init();
     void handleInput();
     void update(float dt);

@@ -13,6 +13,8 @@ class SplashState : public State {
 public:
     SplashState(GameDataRef data);
     ~SplashState();
+
+    // Control
     void init();
     void handleInput();
     void update(float dt);

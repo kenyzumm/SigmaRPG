@@ -5,9 +5,9 @@
 
 class State {
 public:
+    // Control
     virtual void init() = 0;
     virtual void handleInput() = 0;
-
     virtual void pause() {}
     virtual void resume() {}
     virtual void update(float dt) = 0;

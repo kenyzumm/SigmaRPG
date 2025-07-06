@@ -17,10 +17,13 @@ class StateMachine {
 public:
     StateMachine();
     ~StateMachine() {}
+
+    // Control
     void addState(stateRef newState, bool isReplacing = false);
     void removeState();
     void processStateChanges();
 
+    // Getters
     stateRef &getActiveState();
 };
 

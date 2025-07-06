@@ -14,6 +14,8 @@ class GameState : public State {
 public:
     GameState(GameDataRef data);
     ~GameState();
+    
+    // Control
     void init();
     void handleInput();
     void update(float dt);
