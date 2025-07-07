@@ -1,4 +1,5 @@
 #include "Movement.h"
+#include <cmath>
 
 Movement::Movement(float tileSize, float speed) 
     : m_tileSize(tileSize), m_speed(speed), m_isMoving(false) {
